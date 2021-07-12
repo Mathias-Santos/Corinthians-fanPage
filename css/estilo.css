@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black url(../imagens/logo.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 50em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+}
+
+.rede 
+{
+    
+    width: auto;
+    height: 180px;
+    background: #FFF url(../imagens/gavioes.png) center repeat-x;
+    text-align: right;
+    display: block;
+    /*clear:both;*/
+}
+
+/*ul a
+{
+    text-align: right;
+    display: block;
+    float: left;
+
+}*/
+.rodape
+{
+    text-align: center;
+    background-color: darkslategray;
+}
+.horizontal
+{
+    
+}
