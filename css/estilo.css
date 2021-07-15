@@ -4,12 +4,13 @@
 }
 
 body {
-    background: black url(../imagens/logo.png) no-repeat;
+    background: rgb(241, 236, 236) url(../imagens/logo.png) no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
     background-size: 50em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #FFF;
+    font-size: larger;
+    color: rgb(211, 56, 56);
 }
 
 .rede 
@@ -22,20 +23,22 @@ body {
     display: block;
     /*clear:both;*/
 }
+ul.menu{
+    background: url(../imagens/fundo-horizontal.png) repeat-x;
+    width: 560px;
+}
 
-/*ul a
+.horizontal 
 {
-    text-align: right;
-    display: block;
-    float: left;
+    border-right: 2px solid rgb(75, 100, 121);
 
-}*/
+    display: inline;
+    margin: 20px;
+   
+}
+
 .rodape
 {
     text-align: center;
-    background-color: darkslategray;
-}
-.horizontal
-{
-    
+    background-color: rgb(201, 231, 231);
 }
