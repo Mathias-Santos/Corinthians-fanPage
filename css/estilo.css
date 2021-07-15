@@ -10,22 +10,26 @@ body {
     background-size: 50em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
-    color: rgb(211, 56, 56);
+    color: rgb(15, 9, 9);
+}
+
+a
+{
+    text-decoration: none;
 }
 
 .rede 
 {
     
     width: auto;
-    height: 180px;
+    height: 120px;
     background: #FFF url(../imagens/gavioes.png) center repeat-x;
     text-align: right;
     display: block;
-    /*clear:both;*/
 }
 ul.menu{
     background: url(../imagens/fundo-horizontal.png) repeat-x;
-    width: 560px;
+    width: auto;
 }
 
 .horizontal 
@@ -37,8 +41,39 @@ ul.menu{
    
 }
 
+#principal
+{   
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(244, 246, 247);
+    
+}
+
+.noticia
+{
+    width: 265px;
+    margin: 5px 10px;
+    padding: 20px;
+    background-color: rgb(231, 238, 238);
+    float: left;
+}
+.fotos
+{   
+    
+    width: white;
+    width: 300px;
+    padding: 5px;
+    margin: 8px;
+    float: left;
+}
+
+.clear 
+{
+    clear: both;
+}
+
 .rodape
 {
     text-align: center;
-    background-color: rgb(201, 231, 231);
+    background-color: rgb(175, 179, 179);
 }
