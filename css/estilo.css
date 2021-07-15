@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(241, 236, 236) url(../imagens/logo.png) no-repeat;
+    background: rgb(221, 221, 221) url(../imagens/logo.png) no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
     background-size: 50em;
@@ -28,24 +28,29 @@ a
     display: block;
 }
 ul.menu{
-    background: url(../imagens/fundo-horizontal.png) repeat-x;
+    padding: 15px;
+    background: rgb(255, 255, 255);
     width: auto;
 }
 
 .horizontal 
 {
-    border-right: 2px solid rgb(75, 100, 121);
-
+    
+    padding: 130px;
     display: inline;
     margin: 20px;
    
 }
 
-#principal
+.principal
 {   
     margin: auto;
     width: 1000px;
+    height: 730px;
     background-color: rgb(244, 246, 247);
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
     
 }
 
@@ -72,8 +77,22 @@ ul.menu{
     clear: both;
 }
 
+#form
+{
+   margin: 20px;
+   background: url(../imagens/mascote-corinthians.png) no-repeat fixed center;
+}
+
+#mosqueteiro
+{
+   
+}
+
 .rodape
 {
+    width: 100%;
     text-align: center;
-    background-color: rgb(175, 179, 179);
+    background-color: rgb(146, 146, 146);
+    position: absolute;
+    bottom: 0px;
 }
