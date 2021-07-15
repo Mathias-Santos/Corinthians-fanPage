@@ -36,7 +36,7 @@ ul.menu{
 .horizontal 
 {
     
-    padding: 130px;
+    padding: 110px;
     display: inline;
     margin: 20px;
    
@@ -46,10 +46,10 @@ ul.menu{
 {   
     margin: auto;
     width: 1000px;
-    height: 730px;
+    height: 650px;
     background-color: rgb(244, 246, 247);
     position: relative;
-    top: 100px;
+    top: 10px;
     border-radius: 20px;
     
 }
@@ -83,10 +83,7 @@ ul.menu{
    background: url(../imagens/mascote-corinthians.png) no-repeat fixed center;
 }
 
-#mosqueteiro
-{
-   
-}
+
 
 .rodape
 {
