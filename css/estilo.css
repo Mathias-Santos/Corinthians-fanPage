@@ -31,6 +31,12 @@ a:visited
     color: rgb(97, 95, 95);
 }
 
+a:active
+{
+    color: rgb(75, 73, 73);
+    background: grey;
+}
+
 .rede 
 {
     
@@ -97,12 +103,32 @@ ul.menu{
 }
 
 
-
 .rodape
 {
     width: 100%;
     text-align: center;
     background-color: rgb(146, 146, 146);
-    position: absolute;
+    position: fixed;
     bottom: 0px;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 0.8px 5px;
+    text-align: center;
+}
+
+th {
+    
+    border-top: 1px solid rgb(146, 146, 146);
+    border-bottom: 2px solid ;
+    letter-spacing: 1px;
+}
+
+tr:hover{
+    background-color: rgb(230, 229, 229);
 }
