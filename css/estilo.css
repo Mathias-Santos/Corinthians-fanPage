@@ -1,3 +1,6 @@
+/**** Geral ****/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +15,8 @@ body {
     font-size: larger;
     color: rgb(15, 9, 9);
 }
+
+/***** Links *****/
 
 a
 {
@@ -37,6 +42,8 @@ a:active
     background: grey;
 }
 
+/***** Cabeçalho ******/
+
 .rede 
 {
     
@@ -61,11 +68,13 @@ ul.menu{
    
 }
 
+/****** Formata a div principal ******/
+
 .principal
 {   
     margin: auto;
     width: 1000px;
-    height: 650px;
+    height: 720px;
     background-color: rgb(244, 246, 247);
     position: relative;
     top: 10px;
@@ -73,6 +82,7 @@ ul.menu{
     
 }
 
+/***** Formata as divs com notícias e imagens ******/
 .noticia
 {
     width: 265px;
@@ -96,29 +106,39 @@ ul.menu{
     clear: both;
 }
 
+/****** Formulário     ******/
+
+
 #form
 {
    margin: 20px;
    background: url(../imagens/mascote-corinthians.png) no-repeat fixed center;
+   text-align: justify
+   
 }
 
 
-.rodape
-{
-    width: 100%;
-    text-align: center;
-    background-color: rgb(146, 146, 146);
-    position: fixed;
-    bottom: 0px;
+
+fieldset {
+    padding: 10px;
+    width: 90%;
 }
 
+legend {
+    background: rgb(212, 210, 210);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/***** Tabela de classificação *******/
 table{
     width: 100%;
     border-collapse: separate;
 }
 
 th, td {
-    padding: 0.8px 5px;
+    padding: 2px 5px;
     text-align: center;
 }
 
@@ -131,4 +151,14 @@ th {
 
 tr:hover{
     background-color: rgb(230, 229, 229);
+}
+
+/*Formata o rodapé*/
+.rodape
+{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(146, 146, 146);
+    position: fixed;
+    bottom: 0px;
 }
